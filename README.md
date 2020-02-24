@@ -1,5 +1,6 @@
 # Business-Case-Example-using-TF1.14
-You were given data from an audio book app. It relates to the audio version of books. Each customer in the database has made a purchase at least once. We want to create a ML algorithm based on our data that can predict if a customer will buy again from the audio book company? 
+You were given data from an audio book app. It relates to the audio version of books. Each customer in the database has made a purchase at least once. We want to create a ML algorithm based on our data that can predict if a customer will buy again from the audio book company? The main idea is the company shouldn't spend its advertising budget targeting individuals who are unlikely to come back. If we focus our efforts on customers likely to convert again. We can improved sales and profitability efforts. 
+
 The data was gathered from the audiobook app. It represents 2 yrs of engagement. We've taken extra 6 months of data after the two year period,
 to check if a customer converted or not.(this data included as Targets)
 
