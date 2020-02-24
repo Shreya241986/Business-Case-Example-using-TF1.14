@@ -4,20 +4,27 @@ The data was gathered from the audiobook app. It represents 2 yrs of engagement.
 to check if a customer converted or not.(this data included as Targets)
 
 IMPORTANT METRICS FOR CONVERSION
+
  --> ID : It is like a name. No Information, we will skip it.
+ 
  --> Book Length : the overall book length is the sum of the length of purchases.
+ 
  --> Avg Book Length : the sum / #purchases. If someone has brought a single audio book, the average length and the overall length for this person may be equal.
                        therefore, Purchases = overall length / avg. length
+
  --> Price : the price variable is almost always a good predictor!
+ 
  --> Review : It is boolean. It shows if the customer left a review. (1 = left a review, 0 = didn't). 
               Our assumptions is that people will leave reviews are more likely to convert again.
+ 
  --> Review 10/10 : It measures the review of a customer from 1 to 10. Logically we'll only have a value for people who left a review by 
-                     examining the table. Most people leave no review as in most market places, that's bad for our dataset and bad in general.
-                     We've decided to leave the reviews posted to the platform and substitude all missing values with the average review.
+             examining the table. Most people leave no review as in most market places, that's bad for our dataset and bad in general.
+                    We've decided to leave the reviews posted to the platform and substitude all missing values with the average review.
                      Avg = 8.91.
                      For our ML algorithm, 8.91 = status quo.
                      A review > 8.91 indicates above average "feelings".
                      A review < 8.91 indicates below average "feelings".
+ 
  --> Avg. Review 10/10 : Average review accross purchases. It Indicates the feelings towards the content on the medium or better the medium.                    
                          Eg. 2/10 = 0.2 (No Pleasant Experience) No buy again.
                          
